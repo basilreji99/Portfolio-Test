@@ -1,0 +1,142 @@
+/* ************************************************* General Styling ****************************************************** */
+
+body { 
+    background-color:#97DEFF;
+    margin: 0 7% 0 7%;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+/* ************************************************* Class Styling ****************************************************** */
+
+.contact_me {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    position: relative;
+    left:800px;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.main_top { 
+  display: block;
+  text-align: center;
+  background-color:#19A7CE;
+  margin: 0;
+
+}
+
+.main_table{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.section {
+    background-color: #62CDFF;
+    text-align: justify;
+    margin-top: 0;
+    margin-bottom: 0; 
+    padding: 10px; 
+}
+
+
+/* ************************************************* ID Styling ****************************************************** */
+
+#main_pic { 
+    
+    border-radius: 50%;
+}
+
+#main_heading {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#main_tagline{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#coffee{
+  padding-top: 10px;
+  
+
+}
+* {
+    box-sizing: border-box;
+  }
+  
+  /* *************************************Style inputs ********************************/
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #C9EEFF;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #146C94;
+    color: C9EEFF;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #3E54AC;
+  }
+  
+  /* Style the container/contact section */
+  .contact_container {
+    border-radius: 10px;
+    background-color: #62CDFF;
+    margin: 10px;
+  }
+  
+  /* Create two columns that float next to eachother */
+  .contact_column {
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+    padding: 20px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
+
+  .contact_subcontainer {
+    background-color: #C9EEFF;
+    border-radius: 25px;
+    padding-bottom: 15px;
+    padding-top: 10px;
+  }
+
+  .link_buttons{
+  background-color: #e0eef2;
+  border-radius: 25px;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  }
+
+  .bottom-container {
+    display: inline;
+     
+  }
